@@ -1,0 +1,6 @@
+[info] Starting Continue core...
+[2025-03-30T04:28:00] [info] Starting Continue core... 
+[2025-03-30T04:28:00] Setup 
+[2025-03-30T04:28:00] [binary] Core started 
+[2025-03-30T04:28:06] Running migration: add_signature_column 
+[2025-03-30T04:28:06] Running migration: delete_duplicate_code_snippets 
