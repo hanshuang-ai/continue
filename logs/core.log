@@ -8,3 +8,60 @@
 [2025-03-30T04:33:14] [info] Starting Continue core... 
 [2025-03-30T04:33:14] Setup 
 [2025-03-30T04:33:14] [binary] Core started 
+[info] Starting Continue core...
+[2025-03-30T04:37:04] 这是生产环境 
+[2025-03-30T04:37:04] Failed to setup CA:  Error: Module not found in bundle: ./crypt32-x64
+[2025-03-30T04:37:04] Setup 
+[2025-03-30T04:37:04] [binary] Core started 
+[2025-03-30T04:37:04] -------embeddingsModel.maxEmbeddingChunkSize---------:{} 512
+[2025-03-30T04:37:04] indexesToBuild length:{} 4
+[2025-03-30T04:37:27] 收到 session/setMobile 消息 
+[2025-03-30T04:37:27] 消息内容: {"messageId":"5b02e428-00d9-49e3-9d14-cdc59e119ce2","messageType":"session/setMobile","data":{"mobile":"15201053004"}}
+[2025-03-30T04:37:27] 消息类型: session/setMobile
+[2025-03-30T04:37:27] 消息数据: [object Object]
+[2025-03-30T04:37:27] 当前手机号 15201053004
+[2025-03-30T04:37:27] 收到 session/setModel 消息 
+[2025-03-30T04:37:27] 消息内容: {"messageId":"27d8b91e-c516-499f-9ab3-a3f5fc509e4b","messageType":"session/setModel","data":{"model":"deepseek-r1"}}
+[2025-03-30T04:37:27] 消息类型: session/setModel
+[2025-03-30T04:37:27] 消息数据: [object Object]
+[2025-03-30T04:37:27] 当前模型 deepseek-r1
+[2025-03-30T04:37:27] 收到 session/setfunc 消息 
+[2025-03-30T04:37:27] 消息内容: {"messageId":"f9f71614-d882-4df8-849a-0b02689b60f4","messageType":"session/setfunc","data":{"func":"chat"}}
+[2025-03-30T04:37:27] 消息类型: session/setfunc
+[2025-03-30T04:37:27] 消息数据: [object Object]
+[2025-03-30T04:37:27] session/setfunc {"messageId":"f9f71614-d882-4df8-849a-0b02689b60f4","messageType":"session/setfunc","data":{"func":"chat"}}
+[2025-03-30T04:37:27] 当前功能 chat
+[2025-03-30T04:37:30] 收到 session/setModel 消息 
+[2025-03-30T04:37:30] 消息内容: {"messageId":"0960ea65-0bc4-465a-8f4f-a9930e2dd323","messageType":"session/setModel","data":{"model":"gpt-4o"}}
+[2025-03-30T04:37:30] 消息类型: session/setModel
+[2025-03-30T04:37:30] 消息数据: [object Object]
+[2025-03-30T04:37:30] 当前模型 gpt-4o
+[2025-03-30T04:37:32] false this.shouldUseOpenAIAdapter("streamChat") && this.openaiAdapter
+[2025-03-30T04:37:32] {"model":"gpt-4o","maxTokens":4096} completionOptions
+[2025-03-30T04:37:32] false this.shouldUseOpenAIAdapter("streamChat")
+[2025-03-30T04:37:32] [object Object] this.openaiAdapter
+[2025-03-30T04:37:32] 123213213 -------------->>>>>>>>>>>>>>>> 
+[2025-03-30T04:37:32] 现在的请求参数 
+[2025-03-30T04:37:32] {"phone":"15201053004","token":"t","model":"gpt-4o","func":"chat","data":{"messages":[{"role":"system","content":"Always include the language and file name in the info string when you write code blocks, for example '```python file.py'.\n\nYou are an expert software developer. You give helpful and concise responses."},{"role":"user","content":[{"type":"text","text":"1"}]}],"stream":true,"model":"gpt-4o","temperature":0}} 
+[2025-03-30T04:37:32] (node:28088) ExperimentalWarning: The Fetch API is an experimental feature. This feature could change at any time
+(Use `continue-binary --trace-warnings ...` to show where the warning was created) 
+[2025-03-30T04:37:34] API Response Status: 200
+[2025-03-30T04:37:34] API Response Status Text: OK
+[2025-03-30T04:37:34] chunk 
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"你好"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"！"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"请"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"问"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"有什么"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"我"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"可以"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"帮"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"忙"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"的吗"}
+[2025-03-30T04:37:34] chunk {"role":"assistant","content":"？"}
+[2025-03-30T04:37:34] chunk 
+[2025-03-30T04:37:34] 收到 devdata/log 消息 
+[2025-03-30T04:37:34] 消息内容: {"messageId":"6c9bc0b4-a90d-42e3-8bc6-4ae2fb652489","messageType":"devdata/log","data":{"name":"chatInteraction","data":{"prompt":"<system>\nAlways include the language and file name in the info string when you write code blocks, for example '```python file.py'.\n\nYou are an expert software developer. You give helpful and concise responses.\n\n<user>\n1\n\n","completion":"你好！请问有什么我可以帮忙的吗？","modelProvider":"azure","modelTitle":"gpt-4o","sessionId":"fbfcb3f4-2f02-4d3b-8fa6-7921ae55b9e6"}}}
+[2025-03-30T04:37:34] 直接使用消息文本的前10个字符作为标题 
+[2025-03-30T04:37:34] 收到 history/save 消息 
+[2025-03-30T04:37:34] 消息内容: {"messageId":"88321e4d-cfc6-4f51-9a27-ae433823a3be","messageType":"history/save","data":{"sessionId":"fbfcb3f4-2f02-4d3b-8fa6-7921ae55b9e6","title":"你好！请问有什么我可...","workspaceDirectory":"file:///C:/Users/Administrator/Desktop/新建文件夹%20(2)","history":[{"message":{"role":"user","content":[{"type":"text","text":"1"}],"id":"dd9ade1b-0e81-4f44-80a3-fdb37cf3f915"},"contextItems":[],"editorState":{"type":"doc","content":[{"type":"paragraph","content":[{"type":"text","text":"1"}]}]}},{"message":{"id":"8cb8dc60-cc9b-4867-a98f-aa705fbcbb2d","role":"assistant","content":"你好！请问有什么我可以帮忙的吗？"},"contextItems":[],"promptLogs":[{"modelTitle":"gpt-4o","prompt":"<system>\nAlways include the language and file name in the info string when you write code blocks, for example '```python file.py'.\n\nYou are an expert software developer. You give helpful and concise responses.\n\n<user>\n1\n\n","completion":"你好！请问有什么我可以帮忙的吗？","completionOptions":{"model":"gpt-4o","maxTokens":4096}}],"isGatheringContext":false}]}}

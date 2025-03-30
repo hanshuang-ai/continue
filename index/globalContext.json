@@ -1,5 +1,21 @@
 {
   "lastSelectedProfileForWorkspace": {
     "file:///C:/Users/Administrator/Desktop/新建文件夹%20(2)": "local"
+  },
+  "sharedConfig": {
+    "allowAnonymousTelemetry": false,
+    "disableIndexing": false,
+    "disableSessionTitles": false
+  },
+  "selectedModelsByProfileId": {
+    "local": {
+      "chat": null,
+      "edit": "deepseek-r1",
+      "apply": "deepseek-r1",
+      "embed": "GTE",
+      "autocomplete": "free-trial",
+      "rerank": null,
+      "summarize": null
+    }
   }
 }

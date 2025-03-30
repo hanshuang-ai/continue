@@ -1,28 +1,53 @@
 {
-  "models": [],
+  "models": [
+    {
+      "apiKey": "1db37ba5d0************98cb326e3",
+      "deployment": "wt-azure-gpt4",
+      "apiBase": "https://opai4resear.openai.azure.com",
+      "apiType": "azure",
+      "model": "deepseek-r1",
+      "title": "deepseek-r1",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+      "provider": "azure"
+    },
+    {
+      "apiKey": "1db37ba5d0************98cb326e3",
+      "deployment": "wt-azure-gpt4",
+      "apiBase": "https://opai4resear.openai.azure.com",
+      "apiType": "azure",
+      "model": "gpt-4o",
+      "title": "gpt-4o",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+      "provider": "azure"
+    },
+    {
+      "apiKey": "1db37ba5d0************98cb326e3",
+      "deployment": "wt-azure-gpt4",
+      "apiBase": "https://opai4resear.openai.azure.com",
+      "apiType": "azure",
+      "model": "deepseek-v3",
+      "title": "deepseek-v3",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+      "provider": "azure"
+    },
+    {
+      "apiKey": "1db37ba5d0************98cb326e3",
+      "deployment": "wt-azure-gpt4",
+      "apiBase": "https://opai4resear.openai.azure.com",
+      "apiType": "azure",
+      "model": "qwen2.5-coder-14b",
+      "title": "qwen2.5",
+      "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+      "provider": "azure"
+    }
+  ],
   "contextProviders": [
     {
       "name": "code",
       "params": {}
     },
     {
-      "name": "docs",
-      "params": {}
-    },
-    {
       "name": "diff",
-      "params": {}
-    },
-    {
-      "name": "terminal",
-      "params": {}
-    },
-    {
-      "name": "problems",
-      "params": {}
-    },
-    {
-      "name": "folder",
       "params": {}
     },
     {
@@ -44,5 +69,29 @@
       "description": "Generate a git commit message"
     }
   ],
-  "data": []
+  "data": [],
+  "tabAutocompleteModel": {
+    "apiKey": "4f6295c45f424885bac6ca19383e1247",
+    "deployment": "free-trial",
+    "apiBase": "https://azure-wt-openai35.openai.azure.com",
+    "apiType": "anthropic",
+    "model": "free-trial",
+    "title": "free-trial",
+    "apiVersion": "2023-05-15",
+    "systemMessage": "You are an expert software developer. You give helpful and concise responses.",
+    "provider": "free-trial"
+  },
+  "embeddingsProvider": {
+    "apiKey": "4f6295c*****************247",
+    "deployment": "text-embedding-ada-002",
+    "apiBase": "https://api.auto-pai.cn/copilot/chat/embeddings",
+    "apiType": "azure",
+    "model": "GTE",
+    "title": "GTE",
+    "apiVersion": "2023-05-15",
+    "maxEmbeddingChunkSize": 512,
+    "maxEmbeddingBatchSize": 4,
+    "contextLength": 1024,
+    "provider": "free-trial"
+  }
 }

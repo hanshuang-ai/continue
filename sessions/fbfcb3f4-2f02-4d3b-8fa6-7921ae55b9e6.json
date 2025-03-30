@@ -1,0 +1,54 @@
+{
+  "sessionId": "fbfcb3f4-2f02-4d3b-8fa6-7921ae55b9e6",
+  "title": "你好！请问有什么我可...",
+  "workspaceDirectory": "file:///C:/Users/Administrator/Desktop/新建文件夹%20(2)",
+  "history": [
+    {
+      "message": {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "1"
+          }
+        ],
+        "id": "dd9ade1b-0e81-4f44-80a3-fdb37cf3f915"
+      },
+      "contextItems": [],
+      "editorState": {
+        "type": "doc",
+        "content": [
+          {
+            "type": "paragraph",
+            "content": [
+              {
+                "type": "text",
+                "text": "1"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "message": {
+        "id": "8cb8dc60-cc9b-4867-a98f-aa705fbcbb2d",
+        "role": "assistant",
+        "content": "你好！请问有什么我可以帮忙的吗？"
+      },
+      "contextItems": [],
+      "promptLogs": [
+        {
+          "modelTitle": "gpt-4o",
+          "prompt": "<system>\nAlways include the language and file name in the info string when you write code blocks, for example '```python file.py'.\n\nYou are an expert software developer. You give helpful and concise responses.\n\n<user>\n1\n\n",
+          "completion": "你好！请问有什么我可以帮忙的吗？",
+          "completionOptions": {
+            "model": "gpt-4o",
+            "maxTokens": 4096
+          }
+        }
+      ],
+      "isGatheringContext": false
+    }
+  ]
+}
