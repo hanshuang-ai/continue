@@ -102,3 +102,33 @@ Error: HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/opena
 [2025-03-30T04:57:40] Error running handler for "llm/streamChat":  Error: HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/openai/deployments/wt-azure-gpt4/chat/completions?api-version=2023-07-01-preview
 
 {"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+[2025-03-30T05:01:06] [info] Exiting Continue core... 
+[info] Starting Continue core...
+[2025-03-30T05:01:11] [info] Starting Continue core... 
+[2025-03-30T05:01:11] Setup 
+[2025-03-30T05:01:11] [binary] Core started 
+[2025-03-30T05:01:28] HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/openai/deployments/wt-azure-gpt4/chat/completions?api-version=2023-07-01-preview
+
+{"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+
+Code: undefined
+Error number: undefined
+Syscall: undefined
+Type: undefined
+
+Error: HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/openai/deployments/wt-azure-gpt4/chat/completions?api-version=2023-07-01-preview
+
+{"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}
+    at n (C:\snapshot\continue\binary\out\index.js:8226:1745)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async kae (C:\snapshot\continue\binary\out\index.js:8219:917)
+    at async uWt._streamChat (C:\snapshot\continue\binary\out\index.js:8256:3889)
+    at async uWt.streamChat (C:\snapshot\continue\binary\out\index.js:8251:1083)
+    at async d (C:\snapshot\continue\binary\out\index.js:8788:8022)
+    at async C:\snapshot\continue\binary\out\index.js:8788:20924 
+[2025-03-30T05:01:28] Error: HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/openai/deployments/wt-azure-gpt4/chat/completions?api-version=2023-07-01-preview
+
+{"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}} 
+[2025-03-30T05:01:28] Error running handler for "llm/streamChat":  Error: HTTP 401 PermissionDenied from https://opai4resear.openai.azure.com/openai/deployments/wt-azure-gpt4/chat/completions?api-version=2023-07-01-preview
+
+{"error":{"code":"401","message":"Access denied due to invalid subscription key or wrong API endpoint. Make sure to provide a valid key for an active subscription and use a correct regional API endpoint for your resource."}}

@@ -45,3 +45,24 @@ You are an expert software developer. You give helpful and concise responses.
 
 
 
+##### Completion options #####
+{
+  "contextLength": 128000,
+  "model": "gpt-4o",
+  "maxTokens": 4096
+}
+
+##### Request options #####
+{}
+
+##### Prompt #####
+<system>
+Always include the language and file name in the info string when you write code blocks, for example '```python file.py'.
+
+You are an expert software developer. You give helpful and concise responses.
+
+<user>
+1
+
+
+
